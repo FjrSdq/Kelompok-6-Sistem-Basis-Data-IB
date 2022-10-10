@@ -29,7 +29,7 @@ DESC course;
 DESC students;
 DESC student_schedule;
 
-Masukan data mahasiswa
+#Masukan data mahasiswa
 INSERT INTO students VALUES
 (1,"Hafiedz Hasmy Hamid","Jl.Dimanapun No.1","Sistem Informasi"),
 (2,"Hasan Azyumardi Azra","Jl.Dimanapun No.2","Sistem Informasi"),
@@ -39,7 +39,7 @@ INSERT INTO students VALUES
 (6,"Muh. Khalilur Rachman G.","Jl.Dimanapun No.6","Sistem Informasi"),
 (7,"Dhiyaa Unnisa","Jl.Dimanapun No.6","Sistem Informasi");
 
-Masukkan data mata kuliah
+#Masukkan data mata kuliah
 INSERT INTO course VALUES
 (1,"Pemrograman Web A",90,'2022-10-11','08:00:00'),
 (2,"Pemrograman Web B",90,'2022-10-10','10:10:00'),
@@ -48,7 +48,7 @@ INSERT INTO course VALUES
 (5,"Struktur Data A",150,'2022-11-10','07:30:00'),
 (6,"Struktur Data B",150,'2022-10-10','13:10:00');
 
-Masukkan data jadwal mahasiswa
+#Masukkan data jadwal mahasiswa
 INSERT INTO student_schedule VALUES
 (1,2),(1,6),(1,4),
 (2,2),(2,6),(2,4),
