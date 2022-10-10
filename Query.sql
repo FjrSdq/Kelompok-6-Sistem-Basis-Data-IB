@@ -37,7 +37,7 @@ INSERT INTO students VALUES
 (4,"Liska Dewi Rombe","Jl.Dimanapun No.4","Sistem Informasi"),
 (5,"Syarif Hidayat","Jl.Dimanapun No.5","Sistem Informasi"),
 (6,"Muh. Khalilur Rachman G.","Jl.Dimanapun No.6","Sistem Informasi"),
-(7,"Dhiyaa Unnisa","Jl.Dimanapun No.6","Sistem Informasi");
+(7,"Dhiyaa Unnisa","Jl.Dimanapun No.7","Sistem Informasi");
 
 #Masukkan data mata kuliah
 INSERT INTO course VALUES
