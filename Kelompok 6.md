@@ -1,4 +1,4 @@
-# BasisData-Kelompok-6
+# Sistem Basis Data-Kelompok-6
 Tugas Kelompok 6 Praktisi Basis Data
 
 ## Anggota Kelompok
