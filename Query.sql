@@ -1,4 +1,4 @@
-CREATE DATABASE klpk_6 if NOT EXISTS;
+CREATE DATABASE klpk_6;
 USE klpk_6;
 
 CREATE TABLE students (
