@@ -45,7 +45,7 @@ INSERT INTO course VALUES
 (2,"Pemrograman Web B",90,'2022-10-10','10:10:00'),
 (3,"Sistem Basis Data A",150,'2022-10-10','10:10:00'),
 (4,"Sistem Basis Data B",150,'2022-10-13','10:10:00'),
-(5,"Struktur Data A",150,'2022-11-10','07:30:00'),
+(5,"Struktur Data A",150,'2022-10-11','07:30:00'),
 (6,"Struktur Data B",150,'2022-10-10','13:10:00');
 
 #Masukkan data jadwal mahasiswa
