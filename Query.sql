@@ -57,3 +57,12 @@ INSERT INTO student_schedule VALUES
 (5,2),(5,5),(5,4),
 (6,2),(6,6),(6,4),
 (7,2),(7,6),(7,4);
+
+#Contoh DML Update
+UPDATE students
+SET student_name = "" address = ""
+WHERE id = "";
+
+#Contoh DML Delete
+DELETE FROM nama_tabel
+WHERE nama_kolom = "data"
