@@ -1,4 +1,4 @@
-CREATE DATABASE klpk_6 if NOT EXISTS ;
+CREATE DATABASE klpk_6;
 USE klpk_6;
 
 CREATE TABLE students (
@@ -29,7 +29,7 @@ DESC course;
 DESC students;
 DESC student_schedule;
 
-Masukan data mahasiswa
+#Masukan data mahasiswa
 INSERT INTO students VALUES
 (1,"Hafiedz Hasmy Hamid","Jl.Dimanapun No.1","Sistem Informasi"),
 (2,"Hasan Azyumardi Azra","Jl.Dimanapun No.2","Sistem Informasi"),
@@ -37,18 +37,18 @@ INSERT INTO students VALUES
 (4,"Liska Dewi Rombe","Jl.Dimanapun No.4","Sistem Informasi"),
 (5,"Syarif Hidayat","Jl.Dimanapun No.5","Sistem Informasi"),
 (6,"Muh. Khalilur Rachman G.","Jl.Dimanapun No.6","Sistem Informasi"),
-(7,"Dhiyaa Unnisa","Jl.Dimanapun No.6","Sistem Informasi");
+(7,"Dhiyaa Unnisa","Jl.Dimanapun No.7","Sistem Informasi");
 
-Masukkan data mata kuliah
+#Masukkan data mata kuliah
 INSERT INTO course VALUES
 (1,"Pemrograman Web A",90,'2022-10-11','08:00:00'),
 (2,"Pemrograman Web B",90,'2022-10-10','10:10:00'),
 (3,"Sistem Basis Data A",150,'2022-10-10','10:10:00'),
 (4,"Sistem Basis Data B",150,'2022-10-13','10:10:00'),
-(5,"Struktur Data A",150,'2022-11-10','07:30:00'),
+(5,"Struktur Data A",150,'2022-10-11','07:30:00'),
 (6,"Struktur Data B",150,'2022-10-10','13:10:00');
 
-Masukkan data jadwal mahasiswa
+#Masukkan data jadwal mahasiswa
 INSERT INTO student_schedule VALUES
 (1,2),(1,6),(1,4),
 (2,2),(2,6),(2,4),
@@ -57,3 +57,12 @@ INSERT INTO student_schedule VALUES
 (5,2),(5,5),(5,4),
 (6,2),(6,6),(6,4),
 (7,2),(7,6),(7,4);
+
+#Contoh DML Update
+UPDATE students
+SET student_name = "" address = ""
+WHERE id = "";
+
+#Contoh DML Delete
+DELETE FROM nama_tabel
+WHERE nama_kolom = "data"
